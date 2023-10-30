@@ -26,7 +26,13 @@ a:active {
 
 img {
 padding-left: 55px;
-
+  }
+  .backBtn {
+  background-color: black; 
+  color: white; 
+  position: fixed;
+  left: 90%;
+  top: 90%;
 }
 
 </style>
@@ -63,5 +69,5 @@ padding-left: 55px;
 <br>
 <img src="./Appendix_Links/Technology/technology_appendix_7.png" style="max-width:100%;" /></a>
 <br>
-<a href="./collapse-list.html">Back</a>
-</p>
+  <button class='backBtn' onclick="history.back(-1)">Back </button>
+
