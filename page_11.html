@@ -28,7 +28,11 @@ img {
 padding-left: 55px;
 
 }
-
+ .backBtn {
+  position: fixed;
+  left: 90%;
+  top: 90%;
+}
 </style>
 </head>
 <body>
@@ -143,5 +147,4 @@ padding-left: 55px;
 <br>
 <img src="./Appendix_Links/Product/product_appendix_54.jpg" style="max-width:100%;" /></a>
 <br>
-<a href="./collapse-list.html">Back</a>
-</p>
+  <button class='backBtn' onclick="history.back(-1)">Back </button>
