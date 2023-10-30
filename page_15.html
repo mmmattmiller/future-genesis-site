@@ -23,7 +23,15 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+  img {
+padding-left: 55px;
 
+}
+  .backBtn {
+  position: fixed;
+  left: 90%;
+  top: 90%;
+}
 </style>
 </head>
 <body>
@@ -54,5 +62,4 @@ a:active {
 <br>
 <img src="./Appendix_Links/the_bunker/the_bunker_appendix_3.jpg" style="max-width:100%;" /></a>
 <br>
-<a href="./collapse-list.html">Back</a>
-</p>
+  <button class='backBtn' onclick="history.back(-1)">Back </button>
