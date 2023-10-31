@@ -28,3 +28,41 @@
   font-family: Courier;
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 900px) {
+body 
+  {
+    margin: 0px; 
+    padding: 0px;
+  }
+  #main
+  {
+    background: white; 
+    width: 100%; 
+  }
+
+img
+  {
+    width: 90%
+  }
+
+  .links
+  {
+    width: 100%
+    display: block; 
+    background: white; 
+    color: black: 
+    margin-top: 8px; 
+    font-size: 1.5em; 
+  }
+
+  #content
+  {
+    font-size: 16pt; 
+  }
+
+  #footer
+  {
+    display: none; 
+  }
+
