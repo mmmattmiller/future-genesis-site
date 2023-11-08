@@ -31,18 +31,36 @@ a:active {
   text-decoration: underline;
 }
 img {
-	width: 100%;
+	max-width: 180px;
 	height: auto;
-	aspect-ratio: attr(width) / attr(height);
 	} 
+
+ .flex-container {
+        display: flex;
+        background-color: #FFFFFF;
+	justify-content: space-between; 
+	
+    }
+     
+.flex-container div {
+        background-color: #FFFFFF;
+        margin: 10px;
+        padding: 0px;
+	flex-direction: column;
+    }
+	
 </style>  
 
 </head>
   <body>
-<body style="background-color:#FFFFFF">
-	<img src="./Links/home_page_index/index_page.jpg" />
-	
+<body style="background-color:#FFFFFF">	
+    <div class="flex-container">
+        <div><img src="./Links/home_page_index/Homepage-FG-Logo.png"></div>
+        <div><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
+        <div><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></div>
+    </div>
 
+<hr>
 
     <!-- (B) NESTED LIST -->
     <ul class="collapse">
