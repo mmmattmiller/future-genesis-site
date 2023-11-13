@@ -39,17 +39,19 @@ img {
 	} 
 	 
 .flex-container {
-	display: flex; 
-	background-color: #FFFFFF;
-	flex-direction: column;
-	justify-content: center;
-}
+        display: flex;
+        background-color: #FFFFFF;
+	justify-content: space-between; 
+	
+    }
 
-	.flex-item {
-		background-color: #FFFFFF; 
-		margin: 0px; 
-	        padding: 0px; 
-	}
+	.flex-container div {
+        background-color: #FFFFFF;
+        margin: 10px;
+        padding: 0px;
+	flex-direction: column;
+    }
+
 
 
 	
@@ -101,13 +103,12 @@ img {
 </head>
   <body>
 <body style="background-color:#FFFFFF">	
+    <div class="flex-container">
+        <div><img src="./Links/home_page_index/Homepage-FG-Logo.png"></div>
+        <div><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
+        <div><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></div>
+    </div>
 
-	<div id="flex-container">
-        <div id="flex-item"><img src="./Links/home_page_index/Homepage-FG-Logo.png"></a></div>
-        <div id="flex-item"><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
-        <div id="flex-item"><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></a></div>
-	</div>
-	<hr>
 
 	
          <div id="mobileView"><img src="./Links/home_page_index/mobile_header_image.png"></a></div>
