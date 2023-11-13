@@ -52,12 +52,18 @@ img {
 	flex-direction: column;
     }
 	
-	
-	@media screen and (max-width: 767px) {   
-    #main-img{
-        content: url(http://subtlepatterns.com/patterns/dark_embroidery.png) !important;
-    } 
+	#title_message {
+    display: none;
 }
+
+@media screen and (min-width: 768px) {
+    #title_message {
+        clear: both;
+        display: block;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+    }
 	
 </style>  
 
