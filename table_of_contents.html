@@ -38,11 +38,19 @@ img {
 	height: auto;
 	} 
 
- #desktopView{
-   background:#FFFFFF;
-   display:flex;
-   flex-direction: column;
-   justify-content: space-between; 
+ .flex-container {
+	 display: flex; 
+	 background-color: #FFFFFF; 
+	 justify-content: space-between;
+
+ }
+
+.flex-container div {
+	background-color: #FFFFFF; 
+	margin: 10px; 
+	padding: 0px; 
+	flex-direction: column; 
+}
 
 	
   }
@@ -95,15 +103,15 @@ img {
 </head>
   <body>
 <body style="background-color:#FFFFFF">	
-   
-         <div id="desktopView"><img src="./Links/home_page_index/Homepage-FG-Logo.png"></div>
-        <div id="desktopView"><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
-         <div id="desktopView"><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></div>
+
+	<div class=".flex-container">
+         <div><img src="./Links/home_page_index/Homepage-FG-Logo.png"></div>
+        <div><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
+         <div><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></div>
 	    <hr>
 
 	
          <div id="mobileView"><img src="./Links/home_page_index/mobile_header_image.png"></div>
-<hr>
 
     <!-- (B) NESTED LIST -->
     <ul class="collapse">
