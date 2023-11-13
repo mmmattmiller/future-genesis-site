@@ -28,8 +28,12 @@
   font-family: Courier;
   box-sizing: border-box;
 }
+@media screen and (max-width: 767px) {   
+    #main-img{
+        content: url(./Links/home_page_index/mobile_header_image.png) !important;
+    } 
+}
 
-@media only screen and (max-width: 900px) {
 body 
   {
     margin: 0px; 
