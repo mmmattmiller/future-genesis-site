@@ -37,28 +37,27 @@ img {
 	max-width: 180px;
 	height: auto;
 	} 
-
- .flex-container {
-	 display: flex; 
-	 background-color: #FFFFFF; 
 	 
-
  }
 
-.flex-container div {
-	background-color: #FFFFFF; 
-	margin: 10px; 
-	padding: 0px; 
+.flex-container {
+	display: flex; 
+	background-color: #FFFFFF;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
+	.flex-item {
+		background-color: #FFFFFF; 
+		margin: 10px; 
+	        padding: 0px; 
+	}
+
+
 	
-  }
   #mobileView{
     background:#FFFFFF;
     display:none;
-    flex-direction: column;
 
   }
   #mobileLandscapeView{
@@ -105,10 +104,10 @@ img {
   <body>
 <body style="background-color:#FFFFFF">	
 
-	<div class="flex-container div">
-        <div><img src="./Links/home_page_index/Homepage-FG-Logo.png"></div>
-        <div><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
-        <div><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></div>
+	<div class="flex-container">
+        <div class="flex-item"><img src="./Links/home_page_index/Homepage-FG-Logo.png"></div>
+        <div class="flex-item"><p style="font-family:Courier;">STRICTLY CONFIDENTIAL -- DO NOT SHARE OR FORWARD</p></div>
+        <div class="flex-item"><img src="./Links/home_page_index/Index-Page-Digital-Flat-File.png" style="padding-top:10px"></div>
 	    <hr>
 	</div>
 
