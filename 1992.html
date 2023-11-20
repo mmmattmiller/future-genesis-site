@@ -41,18 +41,18 @@ a:active {
   top: 90%;
 }
 
-.video-container {
+.container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
+    padding-top: 56.25%;
+    width: 100%; 
 }
 
-.video-container iframe {
+.responsive-iframe {
     position: absolute;
     top:0;
     left: 0;
+    bottom: 0; 
+    right: 0; 
     width: 100%;
     height: 100%;
 }
@@ -62,13 +62,13 @@ a:active {
 
 <body style="background-color:#FFFFFF">
         <div class="video-container">
-    <iframe class=width="600" height="338" src="https://www.youtube.com/embed/rOaHgMSZX0o?si=nKXgAbDoPORptN8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/rOaHgMSZX0o?si=nKXgAbDoPORptN8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 <br>
 <br>
 <br>
         <div class="video-container">
-    <iframe width="600" height="338" src="https://www.youtube.com/embed/L27FW2cFWcg?si=Fq-afVdjXr869w6m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/L27FW2cFWcg?si=Fq-afVdjXr869w6m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 <br>
 <br>
