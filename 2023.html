@@ -28,9 +28,15 @@ a:active {
   text-decoration: underline;
 }
 
-img {
-padding-left: 55px;
+.container {
+    position: relative;
+    width: 100%; 
+}
 
+.responsive-iframe {
+    position: absolute;
+    top:55;
+    left: 55;
 }
   .backBtn {
   background-color: white; 
@@ -44,10 +50,10 @@ padding-left: 55px;
 
 <body style="background-color:#FFFFFF">
 <div style="padding:55px;">
-<iframe width="600" height="338" src="https://www.youtube.com/embed/-kTtg-2_024?si=8mdZE4f87cetPShL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+<iframe width:100% height:100% src="https://www.youtube.com/embed/-kTtg-2_024?si=8mdZE4f87cetPShL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
   <br>
   <br>
   <br>
-<iframe width="600" height="338" src="https://www.youtube.com/embed/4L8NxfffLsY?si=4XQY6OCtxzUXW68Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width:100% height:100% src="https://www.youtube.com/embed/4L8NxfffLsY?si=4XQY6OCtxzUXW68Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   <button class='backBtn' onclick="history.back(-1)">< Back </button>
