@@ -28,16 +28,6 @@ a:active {
   text-decoration: underline;
 }
 
-.container {
-    position: relative;
-    width: 100%; 
-}
-
-.responsive-iframe {
-    position: absolute;
-    top:55;
-    left: 55;
-}
   .backBtn {
   background-color: white; 
   color: black; 
@@ -45,13 +35,23 @@ a:active {
   left: 80%;
   top: 90%;
 }
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+    padding-left: 55; 
+}
+
+@media only screen and (max-device-width: 430px) {
+ iframe {
+   width: 375px;
+
 </style>
 </head>
 
 <body style="background-color:#FFFFFF">
-<div class="container">
-<iframe id="responsive-iframe" width:100% height:100% src="https://www.youtube.com/embed/-kTtg-2_024?si=8mdZE4f87cetPShL"></iframe><br>
-  <br>
-<iframe id="responsive-iframe" width:100% height:100% src="https://www.youtube.com/embed/4L8NxfffLsY?si=4XQY6OCtxzUXW68Y"></iframe>
-  </div>
-  <button class='backBtn' onclick="history.back(-1)">< Back </button>
+<div class="iframe-container"><iframe border="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/-kTtg-2_024?si=8mdZE4f87cetPShL"></iframe></div>
+<div class="iframe-container"><iframe border="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/4L8NxfffLsY?si=4XQY6OCtxzUXW68Y"></iframe></div>  
+    
+    <button class='backBtn' onclick="history.back(-1)">< Back </button>
